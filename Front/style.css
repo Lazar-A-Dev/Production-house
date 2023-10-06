@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.glavniDiv{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.gornji{
+    text-align: center;
+}
+
+.srednji{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 10vh;
+    border: 1px solid green;
+}
+
+.srednjiLevi{
+    display: flex;
+    flex-direction: column;
+}
+
+.srednjiDesni{
+    display: flex;
+    flex-direction: column;
+}
+
+.donji{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 30vh;
+    border: 1px solid blue;
+}
+
+.prikaz{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5%;
+
+}
+
+.vizualniDeo{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    border: 1px solid black;
+
+}
+
+.popuna{
+   background-color: grey;
+}
